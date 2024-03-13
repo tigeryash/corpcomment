@@ -1,5 +1,5 @@
 import { useFeedbackItemsStore } from "../../stores/feedbackItemsStore";
-import HashtagItem from "./Hashtagitem";
+import HashtagItem from "./HashtagItem";
 
 const HashtagList = () => {
   const companyList = useFeedbackItemsStore((state) => state.getCompanyList());
